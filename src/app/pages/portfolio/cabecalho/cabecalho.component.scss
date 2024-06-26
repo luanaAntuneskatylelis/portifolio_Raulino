@@ -1,0 +1,104 @@
+.topo {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #ffffff;
+}
+
+.topo header {
+  width: 80%;
+  padding: 15px;
+  display: flex;
+  border: 2px black solid;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 60px;
+  box-shadow: 3px 3px 0 black;
+  background-color: white;
+}
+
+.topo p {
+  padding: 0;
+  margin: 0;
+  font-weight: 1.3em;
+  margin: auto;
+}
+
+.topo nav {
+  width: 30%;
+  margin: auto;
+}
+
+.topo nav ul {
+  display: flex;
+}
+
+.topo nav li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.botao {
+  width: 100px;
+  padding: 10px;
+  border: 2px black solid;
+  text-align: center;
+  border-radius: 30px;
+  background-color: #ff69b4;
+  font-weight: bold;
+  box-shadow: 3px 2px 0 black;
+}
+
+/* estilização do Topo Main */
+
+.topo main {
+  .botoes {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px;
+  }
+  h1 {
+    font-size: 3em;
+    padding: 15px;
+    margin: 0;
+  }
+  p {
+    font-size: 1.5em;
+    color: pink;
+  }
+  a {
+    width: 100px;
+    padding: 10px;
+    border: 2px lightcoral (0, 0, 0) solid;
+    text-align: center;
+    border-radius: 30px;
+    background-color: #ff69b4;
+    font-weight: bold;
+    box-shadow: 3px 2px 0 black;
+    &:hover{
+          background-color: violet;
+          cursor: pointer;
+          box-shadow:3px 3px  violet;
+    }
+  }
+}
+
+.competencias {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.bolinha {
+  width: 10px blue;
+  height: 10px;
+  background: r;
+  border-radius: 50%;
+}

@@ -1,0 +1,20 @@
+.fundo{
+   width:100%;
+   height:80vh;
+   border:1px darkred solid;
+   display:flex;
+   align-items: center;
+   justify-content: space-evenly;
+   article{
+       width:40%;
+       height:80%;
+   }
+   figure{
+    width:40%;
+    height:80%;
+    box-shadow: 10px 10px 0 violet;
+    img{
+        height: 100%;
+    }
+   }
+}
