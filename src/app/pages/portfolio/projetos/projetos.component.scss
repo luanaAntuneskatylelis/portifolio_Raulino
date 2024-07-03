@@ -1,0 +1,91 @@
+.projeto-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    border: 1px pink solid;
+  }
+  
+  
+  .projeto {
+    height: 200px;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid red;
+      
+    border-radius: 8px;
+  }
+  
+  .projeto h3 {
+    margin-top: 0;
+    font-size: 1.2em;
+  }
+  
+  .projeto p {
+    margin-bottom: 50px;
+  }
+  
+  @media (max-width: 768px) {
+    .projeto-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  .projeto-grid {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    gap: 50px; /* Espaçamento entre os projetos */
+  }
+  
+  .projeto {
+    background-color:white;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .projeto h3 {
+    margin-top: 0;
+  }
+  
+  .projeto p {
+    margin-bottom: 0;
+  }
+
+  img{
+    height:50%;
+  }
+
+  .projeto-grid {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(6, 15%);
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .projeto {
+    height: 300px;
+    border: 2px solid #ccc; /* Borda ao redor do projeto */
+    border-radius: 8px; /* Borda arredondada */
+    overflow: hidden; /* Garante que a borda não exceda o tamanho do projeto */
+  }
+  
+  .projeto img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ccc; /* Linha separadora na parte inferior da imagem */
+  }
+  
+  .projeto h3 {
+    padding: 10px;
+    margin: 0;
+    background-color: white; /* Fundo do título */
+  }
+  
+  .projeto p {
+    padding: 10px;
+    margin: 0;
+  }
+  

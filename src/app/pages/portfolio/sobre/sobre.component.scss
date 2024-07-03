@@ -8,11 +8,19 @@
    article{
        width:40%;
        height:80%;
+       h1 {
+        font-size : 3 em;
+        color: deeppink
+       }
+       p{
+        font-size:1.5em;
+       }
    }
    figure{
     width:40%;
     height:80%;
     box-shadow: 10px 10px 0 violet;
+    border: 10px solid;
     img{
         height: 100%;
     }
